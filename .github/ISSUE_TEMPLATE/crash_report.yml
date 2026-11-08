@@ -1,0 +1,36 @@
+name: Crash report
+description: Ducky quit unexpectedly. (Ducky fills this in for you when you click "Send report".)
+title: "Crash: "
+labels: ["crash"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for sending this. It contains only the Ducky and macOS versions and where in Ducky's code it crashed; nothing about you or your Mac. Have a look before submitting.
+  - type: input
+    id: version
+    attributes:
+      label: Ducky version
+      placeholder: "0.2.1 (3)"
+    validations:
+      required: true
+  - type: input
+    id: macos
+    attributes:
+      label: macOS version
+      placeholder: "macOS 27.2"
+    validations:
+      required: true
+  - type: textarea
+    id: what
+    attributes:
+      label: What were you doing? (optional)
+      description: For example, connecting headphones, joining a call, changing an app's volume.
+  - type: textarea
+    id: details
+    attributes:
+      label: Crash details
+      description: Filled in by Ducky. You can also attach the full report (Ducky's "Show file" button).
+      render: text
+    validations:
+      required: true

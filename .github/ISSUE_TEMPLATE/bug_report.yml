@@ -1,0 +1,33 @@
+name: Bug report
+description: Something in Ducky doesn't work as expected.
+labels: ["bug"]
+body:
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened, and what did you expect?
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      placeholder: "1. Connect AirPods\n2. Open Ducky\n3. …"
+  - type: input
+    id: version
+    attributes:
+      label: Ducky version
+      description: Settings › General shows it.
+    validations:
+      required: true
+  - type: input
+    id: macos
+    attributes:
+      label: macOS version
+    validations:
+      required: true
+  - type: textarea
+    id: devices
+    attributes:
+      label: Audio devices involved (optional)
+      description: For example, AirPods Pro, a monitor over DisplayPort, USB speakers.
