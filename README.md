@@ -19,7 +19,8 @@ A macOS menu bar app that puts every sound where you want it, at the level you w
 
 1. Download `Ducky-<version>.zip` from [Releases](https://github.com/ForeignerfromJupiter/ducky/releases/latest) and unzip it.
 2. Drag **Ducky** to your **Applications** folder and open it.
-3. This early build isn't notarized by Apple yet, so macOS shows a warning the first time. Click **Done**, then go to **System Settings › Privacy & Security**, scroll down, and click **Open Anyway** next to Ducky. You only need to do this once.
+
+Ducky is signed with Developer ID and notarized by Apple, so it opens like any other app.
 
 Ducky lives in the menu bar (no Dock icon). Click its icon to start.
 
@@ -42,4 +43,4 @@ Everything happens on your Mac. Ducky has no account, no analytics, and sends no
 
 - Two tabs in the same browser playing on the same device share one volume.
 - macOS can't tell what's plugged into a monitor's headphone jack; you can name the monitor and pick an icon for it in Settings › Devices.
-- Early alpha: expect rough edges. Feedback is welcome in [Issues](https://github.com/ForeignerfromJupiter/ducky/issues).
+- Early release: expect rough edges. Feedback is welcome in [Issues](https://github.com/ForeignerfromJupiter/ducky/issues).
