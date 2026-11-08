@@ -6,12 +6,25 @@ A macOS menu bar app that puts every sound where you want it, at the level you w
 
 **[Download the latest release](https://github.com/ForeignerfromJupiter/ducky/releases/latest)** · macOS 15 or later
 
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/screenshots/popover-everyday-dark.png">
+    <img src="assets/screenshots/popover-everyday-light.png" width="400" alt="Ducky's menu: Brave (YouTube Music) and Music share the monitor, each with its own volume">
+  </picture>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/screenshots/popover-call-dark.png">
+    <img src="assets/screenshots/popover-call-light.png" width="400" alt="On a WhatsApp call: Music is lowered and Ducky offers to move the call to the MacBook speakers">
+  </picture>
+</p>
+
 ## What it does
 
 - **Switch audio devices in one click** from the menu bar. The list updates as headphones, Bluetooth and monitors come and go.
 - **Prefer the right device automatically.** Put your outputs and inputs in order once; when a device connects (or the one in use disconnects), Ducky picks the best one available, and undoes macOS jumping to a Bluetooth mic.
 - **See what's playing where.** Each device shows the apps using it, and for Brave, Chrome, Edge and Arc, the tab names.
 - **Give each app its own volume** when two or more apps share a device. Works with any app, including ones you install later.
+- **Move calls off your speakers.** If a call starts on a monitor or speaker, Ducky offers to move it to your Mac's own speakers, and switches back afterwards. Headphones are left alone.
+- **Stay on these devices.** Lock your output and input; Ducky puts them back whenever macOS jumps elsewhere.
 - **Lower everything else during calls.** As soon as any app uses the mic (WhatsApp, Slack, Zoom, Teams, FaceTime, Meet, Granola…), other apps fade to a level you choose, and come back when the call ends.
 - **Control a monitor's own volume** for displays macOS can't control, over the display cable.
 
